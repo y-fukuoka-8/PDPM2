@@ -1,13 +1,12 @@
 import pytest
 from ex import ex_funcs
 
-# コンフリクトを起こす
-
 
 @pytest.mark.parametrize(
     "x, y, expected",
     [
-        (3, 2, 1),
+        # この部分を変更
+        (3, 2, 1)
     ],
 )
 def test_ex_funcs(x: int, y: int, expected: int) -> None:

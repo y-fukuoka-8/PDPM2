@@ -1,6 +1,8 @@
 import pytest
 from ex import ex_funcs
 
+# コンフリクトを起こす
+
 
 @pytest.mark.parametrize(
     "x, y, expected",
